@@ -1,0 +1,15 @@
+.card-title {
+    position: relative;
+    margin-left: 1.3em;
+}
+
+.card-title::after {
+    content: "🧭";
+    position: absolute;
+    left: -1.3em;
+    font-size: 1em;
+}
+
+#branchesWidget {
+    height: 80vh;
+}
